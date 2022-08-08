@@ -90,6 +90,8 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 #portfolio> section:nth-of-type(8).act> div:first-child {transform:translateX(0);}
 #portfolio> section:nth-of-type(8).act> div:last-child	{transform:translateX(0);}
 
+
+
 #portfolio> section:not(#leeum) {min-height:100vh;padding-top:28vh;  }
 #portfolio  div {line-height:270%;}
 #portfolio h3 {font-size:2.3rem; padding-bottom:20pt;}
@@ -166,11 +168,20 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 	#portfolio> section:nth-of-type(3)> div:first-child {transform:scale(1); opacity:1;}
 	#portfolio> section:nth-of-type(3)> div:last-child	{transform:scale(1); opacity:1;}
 	
+	#portfolio> section:nth-of-type(4)	{ transform:translateY(0); opacity:1;}
+	#portfolio> section:nth-of-type(5)> div:first-child {transform:translateX(0);}
+	#portfolio> section:nth-of-type(5)> div:last-child	{transform:translateX(0);}
+	#portfolio> section:nth-of-type(6)> div:first-child {transform:scale(1); opacity:1;}
+	#portfolio> section:nth-of-type(6)> div:last-child	{transform:scale(1); opacity:1;}
+	#portfolio> section:nth-of-type(7)	{ transform:translateY(0); opacity:1;}
+	#portfolio> section:nth-of-type(8)> div:first-child {transform:translateX(0);}
+	#portfolio> section:nth-of-type(8)> div:last-child	{transform:translateX(0);}
+	
 	#portfolio  h3   {font-size:1.8rem;}
 	#portfolio  img  {margin-bottom:30pt;}
 	
-	#leeum, #tae,#burts1, #burts2,#burts3,#burts4,#tae2 ,#tae3 {flex-direction:column-reverse;}
-	#burts {flex-direction:column;}
+	#leeum, #tae,#tae2 ,#tae3 {flex-direction:column-reverse;}
+	#burts ,#burts1, #burts2,#burts3,#burts4{flex-direction:column;}
 	
 	#portfolio div:first-child {padding-right:0pt;}
 	#portfolio a {padding:4pt 13pt;}
