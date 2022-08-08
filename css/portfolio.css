@@ -51,8 +51,8 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 #leeum {padding:10vh 0 18vh 0; }
 
 
-#portfolio> section:nth-of-type(1) 		{transform:translateY(100px); opacity:0; transition:1s;}
-#portfolio> section:nth-of-type(1).act	{transform:translateY(0); opacity:1;}
+#portfolio> section:nth-of-type(1)  			{transform:translateY(100px); opacity:0; transition:1s;}
+#portfolio> section:nth-of-type(1).act  	{transform:translateY(0); opacity:1;}
 
 #portfolio> section:nth-of-type(2)> div:first-child {transform:translateX(-450pt);transition:3s;}
 #portfolio> section:nth-of-type(2)> div:last-child	{transform:translateX(600pt); transition:3s;}
@@ -66,6 +66,21 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 #portfolio> section:nth-of-type(3).act> div:first-child {transform:scale(1); opacity:1;}
 #portfolio> section:nth-of-type(3).act> div:last-child	{transform:scale(1); opacity:1;}
 
+#portfolio> section:nth-of-type(4)   			{transform:translateY(100px); opacity:0; transition:1s;}
+#portfolio> section:nth-of-type(4).act  	{transform:translateY(0); opacity:1;}
+
+#portfolio> section:nth-of-type(5)   			{transform:translateY(100px); opacity:0; transition:1s;}
+#portfolio> section:nth-of-type(5).act  	{transform:translateY(0); opacity:1;}
+
+#portfolio> section:nth-of-type(6)   			{transform:translateY(100px); opacity:0; transition:1s;}
+#portfolio> section:nth-of-type(6).act  	{transform:translateY(0); opacity:1;}
+
+#portfolio> section:nth-of-type(7)   			{transform:translateY(100px); opacity:0; transition:1s;}
+#portfolio> section:nth-of-type(7).act  	{transform:translateY(0); opacity:1;}
+
+#portfolio> section:nth-of-type(8)   			{transform:translateY(100px); opacity:0; transition:1s;}
+#portfolio> section:nth-of-type(8).act  	{transform:translateY(0); opacity:1;}
+
 #portfolio> section:not(#leeum) {min-height:100vh;padding-top:28vh;  }
 #portfolio  div {line-height:270%;}
 #portfolio h3 {font-size:2.3rem; padding-bottom:20pt;}
@@ -74,7 +89,7 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 #portfolio li {display:flex;}
 #portfolio b  {min-width:60pt;}
 #portfolio span {line-height:180%; text-align:justify;}
-#portfolio a   {padding:6pt 30pt; border-radius:20pt; border:1pt solid #ddd; color:black; font-size:1.rem; font-weight:500; transition:0.3s;}
+#portfolio a   {padding:6pt 30pt; border-radius:20pt; border:1pt solid #ddd; color:black; font-size:1rem; font-weight:500; transition:0.3s;}
 #portfolio a:first-of-type {margin-right:10pt;}
 #portfolio a:hover {background:#555; color:white;}
 
@@ -145,7 +160,7 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 	#portfolio  h3   {font-size:1.8rem;}
 	#portfolio  img  {margin-bottom:30pt;}
 	
-	#leeum, #tae, #tae2 ,#tae3 {flex-direction:column-reverse;}
+	#leeum, #tae,#burts1, #burts2,#burts3,#burts4,#tae2 ,#tae3 {flex-direction:column-reverse;}
 	#burts {flex-direction:column;}
 	
 	#portfolio div:first-child {padding-right:0pt;}
