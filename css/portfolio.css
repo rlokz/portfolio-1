@@ -66,20 +66,29 @@ h2 {text-align:center; font-size:3rem; margin-bottom:60pt;}
 #portfolio> section:nth-of-type(3).act> div:first-child {transform:scale(1); opacity:1;}
 #portfolio> section:nth-of-type(3).act> div:last-child	{transform:scale(1); opacity:1;}
 
-#portfolio> section:nth-of-type(4)   			{transform:translateY(100px); opacity:0; transition:1s;}
+#portfolio> section:nth-of-type(4)  			{transform:translateY(100px); opacity:0; transition:1s;}
 #portfolio> section:nth-of-type(4).act  	{transform:translateY(0); opacity:1;}
 
-#portfolio> section:nth-of-type(5)   			{transform:translateY(100px); opacity:0; transition:1s;}
-#portfolio> section:nth-of-type(5).act  	{transform:translateY(0); opacity:1;}
+#portfolio> section:nth-of-type(5)> div:first-child {transform:translateX(-450pt);transition:3s;}
+#portfolio> section:nth-of-type(5)> div:last-child	{transform:translateX(600pt); transition:3s;}
 
-#portfolio> section:nth-of-type(6)   			{transform:translateY(100px); opacity:0; transition:1s;}
-#portfolio> section:nth-of-type(6).act  	{transform:translateY(0); opacity:1;}
+#portfolio> section:nth-of-type(5).act> div:first-child {transform:translateX(0);}
+#portfolio> section:nth-of-type(5).act> div:last-child	{transform:translateX(0);}
+
+#portfolio> section:nth-of-type(6)> div:first-child {transform:scale(0.5); opacity:0; transition:3s;}
+#portfolio> section:nth-of-type(6)> div:last-child	{transform:scale(0.5); opacity:0; transition:3s;}
+
+#portfolio> section:nth-of-type(6).act> div:first-child {transform:scale(1); opacity:1;}
+#portfolio> section:nth-of-type(6).act> div:last-child	{transform:scale(1); opacity:1;}
 
 #portfolio> section:nth-of-type(7)   			{transform:translateY(100px); opacity:0; transition:1s;}
 #portfolio> section:nth-of-type(7).act  	{transform:translateY(0); opacity:1;}
 
-#portfolio> section:nth-of-type(8)   			{transform:translateY(100px); opacity:0; transition:1s;}
-#portfolio> section:nth-of-type(8).act  	{transform:translateY(0); opacity:1;}
+#portfolio> section:nth-of-type(8)> div:first-child {transform:translateX(-450pt);transition:3s;}
+#portfolio> section:nth-of-type(8)> div:last-child	{transform:translateX(600pt); transition:3s;}
+
+#portfolio> section:nth-of-type(8).act> div:first-child {transform:translateX(0);}
+#portfolio> section:nth-of-type(8).act> div:last-child	{transform:translateX(0);}
 
 #portfolio> section:not(#leeum) {min-height:100vh;padding-top:28vh;  }
 #portfolio  div {line-height:270%;}
