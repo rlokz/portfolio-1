@@ -1,4 +1,4 @@
-﻿$(document).ready(function(){
+$(document).ready(function(){
 	//이벤트 썸네일이미지 마우스오버
 	$("#event> div> div").hover(
 		function(){
@@ -71,6 +71,7 @@
 	
 	//((모바일이 아닌 화면))스크롤을 내릴때마다 작품이 하나씩 보임
 	if( $(window).width()> 600 ){
+		
 		$(window).scroll(function(){
 			if( $(window).scrollTop()>1600 ){
 				$("#portfolio> section").eq(0).addClass("act");
@@ -80,6 +81,21 @@
 			}
 			if( $(window).scrollTop()>3400 ){
 				$("#portfolio> section").eq(2).addClass("act");
+			}
+			if( $(window).scrollTop()>4300 ){
+				$("#portfolio> section").eq(3).addClass("act");
+			}
+			if( $(window).scrollTop()>5200 ){
+				$("#portfolio> section").eq(4).addClass("act");
+			}
+			if( $(window).scrollTop()>6100 ){
+				$("#portfolio> section").eq(5).addClass("act");
+			}
+			if( $(window).scrollTop()>7000 ){
+				$("#portfolio> section").eq(6).addClass("act");
+			}
+			if( $(window).scrollTop()>7900 ){
+				$("#portfolio> section").eq(7).addClass("act");
 			}
 		});		
 	}
