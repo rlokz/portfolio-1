@@ -1,4 +1,4 @@
-$(document).ready(function(){
+﻿$(document).ready(function(){
 	//이벤트 썸네일이미지 마우스오버
 	$("#event> div> div").hover(
 		function(){
